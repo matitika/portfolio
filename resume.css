@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0D1B2A;
+}
+
+.content {
+    background-color: whitesmoke;
+    margin: 5rem 0;
+    width:60rem;
+    padding: 1rem 3rem;
+    font-family: 'Open Sans';
+}
+
+.identifier {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0;
+}
+
+.ul {
+    padding-left: 1rem;
+}
+
+h2 {
+    margin-bottom: 0rem;
+}
+
+h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: xx-large;
+    color: #0D1B2A;
+}
+
+.program {
+    margin-top: 0;
+}
+
+.coursework {
+    margin-top: .5rem;
+}

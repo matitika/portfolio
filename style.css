@@ -34,7 +34,7 @@
     z-index: 0;
     right: 0;
     width: 1000px; /* Set your desired width for the rectangle */
-    height: 60vh; /* Set the height to cover the full height of the viewport */
+    height: 500px; /* Set the height to cover the full height of the viewport */
     background-color: #3498db; /* Set your desired background color for the rectangle */
     margin-right: 10rem; /* Set the margin from the right screen border */
   }
@@ -45,4 +45,30 @@
     height: fit-content;
     width: 42vw;
     padding: 10rem; /* Adjust as needed for spacing */
+  }
+
+  .button {
+    font-size: 1.2em;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: fit-content;
+    padding: 0.25rem 0;
+    border: black;
+    border-style: solid;
+    border-radius: 100px;
+    text-decoration: none;
+    border-width: 2px;
+  }
+
+  .button:first-of-type {
+    background-color: #DBE5BD;
+    color: #0D1B2A;
+  }
+
+  .button:last-of-type {
+    background-color: #0D1B2A;
+    color: white;
   }
