@@ -1,0 +1,48 @@
+ @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600&display=swap');
+
+ body {
+    font-family: 'Prompt', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  p {
+    font-size: 1.5em;
+    margin: 1em 0 0 0;
+    color: #757575;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 4em;
+    line-height: 120%;
+    margin: 0;
+    color: #0D1B2A;
+  }
+
+  h2 {
+    margin: 0;
+  }
+  
+  .rectangle {
+    background: rgb(255,255,255);
+    background: linear-gradient(40deg, rgba(255,255,255,1) 25%, rgba(13,27,42,1) 100%); 
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    width: 1000px; /* Set your desired width for the rectangle */
+    height: 60vh; /* Set the height to cover the full height of the viewport */
+    background-color: #3498db; /* Set your desired background color for the rectangle */
+    margin-right: 10rem; /* Set the margin from the right screen border */
+  }
+  
+  .content {
+    position: absolute;
+    z-index: 1;
+    height: fit-content;
+    width: 42vw;
+    padding: 10rem; /* Adjust as needed for spacing */
+  }
